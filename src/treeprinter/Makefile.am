@@ -1,6 +1,6 @@
 AM_CXXFLAGS = $(CXXFLAGS) -std=c++1z -Wall -Werror -I$(top_srcdir)/src/
 SUBDIRS = tests
 
-lib_LTLIBRARIES = libtree.la
+lib_LTLIBRARIES = libtreeprinter.la
 
-libtree_la_SOURCES = tree.cpp
+libtreeprinter_la_SOURCES = treeprinter.cpp
